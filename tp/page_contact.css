@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-family: Impact;
+}
+
+body{
+    background-image: linear-gradient( #CCDAE0, #EDF2F4 ) ;
+    font: ;
+}
+
+strong {
+    color: red;
+}
+
+
+header li, header {
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+footer li {
+    text-align: right;
+}

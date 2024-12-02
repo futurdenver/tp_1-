@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient( #CCDAE0, #EDF2F4 ) ;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-family: Impact;
+}
+
+h3 {
+    color:#2B2D42 ;
+    text-decoration: underline dotted;
+}
+
+.centrer {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+article {
+    border: solid;
+    border-collapse: collapse;
+}
+.footer {
+    text-align: right;
+}
+
+li{
+    list-style-type: none;
+}

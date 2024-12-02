@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="page_contact.css">
+        <title>page contact</title>
+    </head>
+    <body>
+    
+        <header>
+        <img src="istockphoto-493981482-612x612.jpg" alt="montagne_5">
+        
+        <h1><strong>Bienvenue sur mon site !</strong></h1>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Galerie</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+
+        <form method="post" action="monProgramme.php">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label for="nom">Nom<strong>*</strong></label>
+                    <input type="text" name="nom" placeholder="Ex: Robert" maxlength="20" id="nom"/>
+                </div>
+
+                <div>
+                    <label for="mail">E-mail<strong>*</strong></label>
+                    <input type="text" name="mail" placeholder="Ex: momMail@FAI.com" maxlength="20" id="mail"/>
+                </div>
+
+                <div>
+                    <label for="com">Laissez un commentaire</label> <br/>
+                    <textarea name="longeur" placeholder="Je dépose mon avis :)" id="com" cols="70" rows="10"></textarea>
+            </fieldset>
+
+            <input type="checkbox" id="html">
+            <label for="">Envoyer une copie par E-mail !</label><br>
+            
+            <input type="submit" value="Envoyer"/>
+            <input type="submit" value="Reset"/>
+        </form>
+       
+        <footer class="footer">
+            <ul>
+                <li><a href="">Menu 1</a></li>
+                <li><a href="">Menu 2</a></li>
+                <li><a href="">Menu 3</a></li>
+                <li><a href="">Menu 4</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
